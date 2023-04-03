@@ -55,3 +55,5 @@ if __name__ == '__main__':
                   order_date=i['order_date'],
                   ship_city=i['ship_city'],
                   )
+
+pg_close_connection(connection)
