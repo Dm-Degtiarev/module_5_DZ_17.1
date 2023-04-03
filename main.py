@@ -56,4 +56,4 @@ if __name__ == '__main__':
                   ship_city=i['ship_city'],
                   )
 
-pg_close_connection(connection)
+    pg_close_connection(connection)
