@@ -36,7 +36,7 @@ if __name__ == '__main__':
                   contact_name=i['contact_name']
                   )
 
-    #Инсертим данные в customers_data
+    #Инсертим данные в employees_data
     for i in employees_data:
         pg_insert(connection=connection, table_name='employees_data',\
                   first_name=i['first_name'],
